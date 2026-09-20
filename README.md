@@ -220,7 +220,7 @@ without installing anything.
 | | |
 |---|---|
 | **More pages** | Copy `index.html` to `about.html` and link to it. That is genuinely all it takes. |
-| **A bigger site** | [vitepress-marketing](https://github.com/BootForm) when you want a blog and several pages that share a design. |
+| **A bigger site with a blog** | [vitepress-marketing](https://github.com/BootForm/vitepress-marketing). This one needs a terminal and Node.js: [setting up your computer](https://bootform.com/docs/computer-setup) walks through installing them. |
 | **A portfolio** | [vitepress-portfolio](https://github.com/BootForm) when you have case studies to show, not just a pitch. |
 | **More form options** | File uploads, autoresponders, Discord and Slack: [bootform.com/docs](https://bootform.com/docs/). |
 
