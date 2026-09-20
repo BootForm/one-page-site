@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CHANGE ME: this is what shows in the browser tab and in Google results. -->
+<title>Sam Rivera</title>
+<meta name="description" content="Bookbinder and occasional woodworker, working out of a small studio in Leeds.">
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+  /* CHANGE ME: your two colours. Everything else follows from these. */
+  @theme {
+    --color-ink: #1b1a17;
+    --color-paper: #fbf9f4;
+    --color-accent: #9a3b1f;
+  }
+</style>
+</head>
+
+<body class="bg-paper text-ink font-sans antialiased">
+
+  <div class="mx-auto max-w-2xl px-6 py-16 sm:py-24">
+
+    <!-- ───── Who you are ───── -->
+    <header class="flex flex-col gap-4">
+
+      <!-- CHANGE ME: your photo. Upload your own as sample-profile-photo.jpg (Add file → Upload
+           files, same name overwrites this one) and update the alt text below to your name. -->
+      <img src="sample-profile-photo.jpg" alt="Sam Rivera" class="h-20 w-20 rounded-full object-cover">
+
+      <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Sam Rivera</h1>
+      <p class="text-xl leading-relaxed text-ink/70">
+        I bind books by hand in a small studio in Leeds. Mostly repairs and rebinds,
+        sometimes a one-off for someone who has run out of shelf space for paperbacks.
+      </p>
+
+      <!-- CHANGE ME: your links. Delete any line you don't want, or copy one to add your own. -->
+      <div class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
+        <a href="https://instagram.com/yourname" class="underline decoration-ink/25 underline-offset-4 hover:text-accent hover:decoration-accent">Instagram</a>
+        <a href="mailto:you@example.com" class="underline decoration-ink/25 underline-offset-4 hover:text-accent hover:decoration-accent">Email</a>
+      </div>
+    </header>
+
+    <!-- ───── What you do ───── -->
+    <section class="mt-16 flex flex-col gap-6">
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-ink/50">What I do</h2>
+      <div class="grid gap-6 sm:grid-cols-2">
+        <div class="flex flex-col gap-2">
+          <h3 class="font-semibold">Repairs</h3>
+          <p class="text-ink/70">Loose spines, torn hinges, water damage. Send a photo first.</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="font-semibold">Rebinds</h3>
+          <p class="text-ink/70">Cloth or quarter-leather, stamped by hand. Four to six weeks.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───── The form ─────
+         Replace __YOUR_FORM_ID__ below with the ID you generate in step 4
+         of the README. Everything else here already works. -->
+    <section class="mt-16 flex flex-col gap-6">
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-ink/50">Get in touch</h2>
+
+      <form action="https://f.bootform.com/__YOUR_FORM_ID__" method="POST" class="flex flex-col gap-5">
+
+        <div class="flex flex-col gap-2">
+          <label for="name" class="text-sm font-medium">Your name</label>
+          <input id="name" name="name" type="text" required
+                 class="rounded-lg border border-ink/15 bg-white px-4 py-2.5 outline-none focus:border-accent focus:ring-2 focus:ring-accent/25">
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label for="email" class="text-sm font-medium">Your email</label>
+          <input id="email" name="email" type="email" required
+                 class="rounded-lg border border-ink/15 bg-white px-4 py-2.5 outline-none focus:border-accent focus:ring-2 focus:ring-accent/25">
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label for="message" class="text-sm font-medium">What do you need?</label>
+          <textarea id="message" name="message" rows="4" required
+                    class="rounded-lg border border-ink/15 bg-white px-4 py-2.5 outline-none focus:border-accent focus:ring-2 focus:ring-accent/25"></textarea>
+        </div>
+
+        <!-- A spam trap. Real people never see it, bots fill it in. Leave it alone. -->
+        <input type="text" name="_honeypot" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
+
+        <button type="submit"
+                class="self-start rounded-lg bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-accent/40">
+          Send
+        </button>
+      </form>
+    </section>
+
+    <footer class="mt-20 border-t border-ink/10 pt-8 text-sm text-ink/50">
+      Built with <a href="https://github.com/BootForm/first-website" class="underline hover:text-accent">first-website</a>.
+      The form runs on <a href="https://bootform.com" class="underline hover:text-accent">BootForm</a>.
+    </footer>
+
+  </div>
+
+</body>
+</html>
