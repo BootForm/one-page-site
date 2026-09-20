@@ -1,8 +1,9 @@
 # Working in this repo
 
-This is a teaching template for people who have never used GitHub. Someone clicks "Use this
-template", edits one file in the browser, and gets a live site with a working contact form. Keep it
-that way.
+This is a teaching template for people who have never used GitHub, one step past `first-website`:
+a real landing page for a freelance business, ending on the reader's own domain instead of
+`github.io`. Someone clicks "Use this template", edits one file in the browser, and gets a live
+site with a working contact form. Keep it that way.
 
 ## The constraints that define this repo
 
@@ -10,7 +11,12 @@ that way.
   files through GitHub's web editor and GitHub Pages serves the repo root as-is. Do not add
   `package.json`, a bundler, a framework, or a Pages build workflow.
 - **One page.** `index.html` is the whole site. If a change needs a second file to make sense, it
-  probably belongs in a different template.
+  probably belongs in a different template. The one deliberate exception is `CNAME`, which the
+  reader adds themselves in step 5: that's how GitHub Pages custom domains work, not a design choice
+  to revisit.
+- **More sections than `first-website`, on purpose.** A landing page for a freelance business needs
+  services, a process, pricing, and social proof, not just a bio and a form. Keep each section
+  short enough that a beginner can find and replace the whole thing in one read.
 - **Tailwind via the browser CDN**, loaded from `@tailwindcss/browser@4`. This is the one place in
   the org where the CDN build is correct, because the reader has no way to run a build. Style with
   utility classes, and put the theme in the `@theme` block so a beginner changes three colours in
