@@ -1,9 +1,9 @@
 # Working in this repo
 
 This is a teaching template for people who have never used GitHub, one step past `first-website`:
-a real landing page for a freelance business, ending on the reader's own domain instead of
-`github.io`. Someone clicks "Use this template", edits one file in the browser, and gets a live
-site with a working contact form. Keep it that way.
+a real company landing page for a small or local business, ending on the reader's own domain
+instead of `github.io`. Someone clicks "Use this template", edits one file in the browser, and gets
+a live site with a working contact form. Keep it that way.
 
 ## The constraints that define this repo
 
@@ -14,7 +14,12 @@ site with a working contact form. Keep it that way.
   probably belongs in a different template. The one deliberate exception is `CNAME`, which the
   reader adds themselves in step 5: that's how GitHub Pages custom domains work, not a design choice
   to revisit.
-- **More sections than `first-website`, on purpose.** A landing page for a freelance business needs
+- **Looks like a company page, not a personal bio.** This is the thing that distinguishes it from
+  `first-website`. A sticky nav, a full-width hero band, and alternating full-width sections
+  (services, process, pricing, testimonial, then a "meet the owner" band) rather than one narrow
+  scrolled column. Keep that structure when editing: a redesign that collapses back into a single
+  centered column re-creates `first-website` and defeats the point of having two templates.
+- **More sections than `first-website`, on purpose.** A landing page for a real business needs
   services, a process, pricing, and social proof, not just a bio and a form. Keep each section
   short enough that a beginner can find and replace the whole thing in one read.
 - **Tailwind via the browser CDN**, loaded from `@tailwindcss/browser@4`. This is the one place in

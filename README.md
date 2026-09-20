@@ -1,15 +1,16 @@
-# A real landing page, on your own domain
+# A real company page, on your own domain
 
 No installs. No terminal. No account anywhere, until you claim your form, and even then it's free.
 
-By the end you will have a real landing page for your freelance business, on a domain with your own
-name on it, with a contact form that genuinely sends you the messages.
+By the end you will have a real landing page for a small or local business, on a domain with your
+own name on it, with a contact form that genuinely sends you the messages.
 
 **[See what you are building →](https://bootform.github.io/one-page-site/)**
 
-This picks up where [first-website](https://github.com/BootForm/first-website) leaves off: the same
-zero-friction form, a page with more of what a real landing page needs (services, pricing, a
-testimonial), and a step for putting it on a domain you actually own instead of `github.io`.
+This picks up where [first-website](https://github.com/BootForm/first-website) leaves off. That one
+is a personal bio in a single scrolling column. This one looks like a company site: a sticky nav, a
+full-width hero banner, and separate bands for services, pricing and a testimonial, plus a step for
+putting it on a domain you actually own instead of `github.io`.
 
 ---
 
@@ -48,7 +49,7 @@ address, something like `https://yourname.github.io/one-page-site/`.
 
 **Open it.** That is your website. It is live, on the real internet, and anyone can visit it.
 
-It still says Priya Shah. We will fix that next.
+It still says Cedar & Vine Landscaping. We will fix that next.
 
 > **If you get a 404:** give it another minute or two. The first build is the slow one.
 
@@ -59,15 +60,17 @@ It still says Priya Shah. We will fix that next.
 Back on your repository's main page, click **`index.html`**, then click the pencil icon (✏️) to
 edit it.
 
-Look for the lines marked `CHANGE ME`. There are two:
+Look for the lines marked `CHANGE ME`. There are four:
 
 - **The title**, near the top. This is what shows in the browser tab.
 - **Two colours**, just below it. `--color-ink` is the text, `--color-paper` is the background,
-  `--color-accent` is the buttons and links.
+  `--color-accent` is the buttons, links and banded section backgrounds.
+- **Your business name**, in the nav bar at the top of the page.
+- **The hero headline**, the big line at the top of the page, plus the sentence under it.
 
-Then change the actual words on the page: your name and tagline, the three things under "What I
-do", the three steps under "How it works", the two packages and their prices, and the quote in
-"What clients say" (or delete that section until you have a real one to put there).
+Then change the actual words in each band further down the page: the three things under "What we
+do", the three steps under "How it works", the two packages and their prices, and the quote under
+"What neighbours say" (or delete that section until you have a real one to put there).
 
 When you are done, click **Commit changes...** at the top right, then **Commit changes** in the box
 that appears.
@@ -77,29 +80,29 @@ Wait a minute, reload your site, and it is yours.
 > **Picking colours is the hard part.** If you have no idea, try `--color-paper: #0f1115` and
 > `--color-ink: #e8e6e1` for a dark version, and pick any accent you like.
 
-**Optional: use your own photo.** The page starts with a demo photo so you can see how it looks.
-To swap in your own:
+**Optional: use your own photo.** The "Who you'll talk to" section starts with a demo photo so you
+can see how it looks. To swap in your own:
 
 1. On your repository's main page, click **Add file → Upload files**.
 2. Drag in your photo and name it exactly `sample-profile-photo.jpg`. Uploading a file with the
    same name replaces the one that's there.
 3. Commit the upload.
-4. Edit `index.html`, find the `<img src="sample-profile-photo.jpg" ...>` line near the top, and
-   change `alt="Priya Shah"` to your own name.
+4. Edit `index.html`, find the `<img src="sample-profile-photo.jpg" ...>` line, and change its
+   `alt` text to your own name.
 
 Don't want a photo at all? Delete the `<img>` line (and the `CHANGE ME` comment above it) and the
 page still works, just without one.
 
-**Optional: add your links.** Next to the "Start a project" button is a row of links marked
+**Optional: add your links.** Below the photo in "Who you'll talk to" is a row of links marked
 `CHANGE ME: your links`. Each one is a single line, for example:
 
 ```html
-<a href="https://dribbble.com/yourname" class="underline decoration-ink/25 underline-offset-4 hover:text-accent hover:decoration-accent">Dribbble</a>
+<a href="https://instagram.com/yourbusiness" class="underline decoration-ink/25 underline-offset-4 hover:text-accent hover:decoration-accent">Instagram</a>
 ```
 
 Change the address in `href` to your own, change the text between the tags to whatever you want it
 to say, and delete any line you don't want. Copy a line and change both to add one that isn't there
-already, like a LinkedIn profile or a portfolio site.
+already, like a Facebook page or a Google Business Profile.
 
 ---
 
