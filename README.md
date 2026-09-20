@@ -195,8 +195,8 @@ The exact screen differs by registrar, but you're adding DNS records:
 - For a subdomain (`www.yourname.com`): add one **CNAME** record pointing to
   `yourname.github.io` (your GitHub username, not the repo name).
 
-GitHub's own guide has screenshots for the common registrars: [managing a custom
-domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+[Setting up your computer](https://bootform.com/docs/computer-setup) has the same steps written
+out in more detail, if anything here is unclear.
 
 **5d. Wait, then confirm HTTPS.**
 
