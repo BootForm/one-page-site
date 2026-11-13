@@ -157,15 +157,16 @@ Go to your live site, fill in the form, and send it.
 You will land on a page that says the message is being held, and asks you to claim the form. That is
 the point: it accepted your message before you had an account anywhere.
 
-**4d. Claim it.**
+**4d. Claim it, right now.**
 
-Click the claim link and create a free account. Everything already sent to your form is delivered to
-you straight away.
+Create a free account on that page. The message you just sent is waiting in your dashboard.
 
-From now on, anything anyone sends through your site arrives in your inbox.
+If BootForm emails you a link to confirm your address, click it. From then on, anything anyone sends
+through your site arrives in your inbox.
 
-> **Don't leave it too long.** Held messages are kept for 48 hours before they are deleted. Claim
-> the form the same day you put it live.
+> **Claim before you share your site.** Your form ID is visible in your page's code, and whoever
+> claims it first owns the form. So send your test and claim it in the same sitting, before you
+> give anyone the address. Held messages are also deleted after 48 hours.
 
 ---
 
@@ -239,8 +240,10 @@ such thing as a question that is too basic here. That is what this repo is for.
 **My changes aren't showing.** Each commit triggers a rebuild that takes about a minute. If it still
 looks old after that, hard-reload the page: `Ctrl+Shift+R`, or `Cmd+Shift+R` on a Mac.
 
-**The form shows raw text instead of a nice page.** You are seeing the response as JSON. That is
-normal for now. Once you claim the form you can set a redirect so people land back on your site.
+**After sending, people land on a plain "Thanks" page.** That is BootForm's own page, and it is what
+visitors see once the form is claimed. To send them back to your site instead, add a hidden field
+inside the form: `<input type="hidden" name="_redirect" value="https://yourname.com/thanks.html">`.
+The address has to be on the same site as the form.
 
 **"This form has reached its limit of 10 held submissions."** You tested it more than ten times
 before claiming. Claim the form and the limit goes away.
