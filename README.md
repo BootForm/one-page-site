@@ -63,8 +63,8 @@ edit it.
 Look for the lines marked `CHANGE ME`. There are four:
 
 - **The title**, near the top. This is what shows in the browser tab.
-- **Two colours**, just below it. `--color-ink` is the text, `--color-paper` is the background,
-  `--color-accent` is the buttons, links and banded section backgrounds.
+- **Three colours**, just below it. `--color-ink` is the text, `--color-paper` is the background,
+  and `--color-accent` colours the buttons, links and banded section backgrounds.
 - **Your business name**, in the nav bar at the top of the page.
 - **The hero headline**, the big line at the top of the page, plus the sentence under it.
 
