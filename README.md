@@ -255,6 +255,12 @@ terminal (or an online DNS checker) shows whether your records have actually tak
 **Enforce HTTPS is greyed out.** GitHub needs to issue a certificate for your domain first, which
 only starts after DNS verifies. Check back in a few hours.
 
+## Like it?
+
+If this saved you some time, a star on this repo helps other people find it. Everything else
+BootForm publishes is at [github.com/BootForm](https://github.com/BootForm): more templates, form
+styles and page sections, all free to copy.
+
 ## Licence
 
 MIT. Do whatever you like with it, including using it for a real business.
